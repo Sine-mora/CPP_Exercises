@@ -1,0 +1,5 @@
+<Users>
+    <User name = "Petko" balance = "30000" mobile = "159765" accountNumber = "232"/>
+    <User name = "Ivan" balance = "40000" mobile = "159553" accountNumber = "233"/>
+    <User name = "Kosta" balance = "140000000" mobile = "159225" accountNumber = "234"/>
+</Users>

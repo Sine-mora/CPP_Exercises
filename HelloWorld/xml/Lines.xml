@@ -1,0 +1,128 @@
+<Lines>
+    <Line id="1">
+        <Reel index ="0">
+            <Position index="0"/>
+        </Reel>
+        
+        <Reel index ="1">
+            <Position index="0"/>
+        </Reel>
+        
+        <Reel index ="2">
+            <Position index="0"/>
+        </Reel>
+        
+        <Reel index ="3">
+            <Position index="0"/>
+        </Reel>
+        
+        <Reel index ="4">
+            <Position index="0"/>
+        </Reel>
+    </Line>
+    <Line id="2">
+        <Reel index ="0">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="1">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="2">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="3">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="4">
+            <Position index="1"/>
+        </Reel>
+    </Line>
+    <Line id="3">
+        <Reel index ="0">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="1">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="2">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="3">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="4">
+            <Position index="2"/>
+        </Reel>
+    </Line>
+    <Line id="4">
+        <Reel index ="0">
+            <Position index="0"/>
+        </Reel>
+        
+        <Reel index ="1">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="2">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="3">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="4">
+            <Position index="0"/>
+        </Reel>
+    </Line>
+    <Line id="5">
+        <Reel index ="0">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="1">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="2">
+            <Position index="0"/>
+        </Reel>
+        
+        <Reel index ="3">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="4">
+            <Position index="2"/>
+        </Reel>
+    </Line>
+    <Line id="6">
+        <Reel index ="0">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="1">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="2">
+            <Position index="1"/>
+        </Reel>
+        
+        <Reel index ="3">
+            <Position index="2"/>
+        </Reel>
+        
+        <Reel index ="4">
+            <Position index="1"/>
+        </Reel>
+    </Line>
+</Lines>

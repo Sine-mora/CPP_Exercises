@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/Desktop/Workspace/exercises/Exercise2/src/employees.cpp
+employees.h
+/home/default/Desktop/Workspace/exercises/Exercise2/src/employees.h
+
+/home/default/Desktop/Workspace/exercises/Exercise2/src/employees.h
+string
+-
+
+/home/default/Desktop/Workspace/exercises/Exercise2/src/exercise2.cpp
+exercise2.h
+/home/default/Desktop/Workspace/exercises/Exercise2/src/exercise2.h
+
+/home/default/Desktop/Workspace/exercises/Exercise2/src/exercise2.h
+iostream
+-
+cmath
+-
+string
+-
+
+/home/default/Desktop/Workspace/exercises/Exercise2/src/main.cpp
+iostream
+-
+exercise2.h
+/home/default/Desktop/Workspace/exercises/Exercise2/src/exercise2.h
+

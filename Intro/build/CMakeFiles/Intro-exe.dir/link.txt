@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Intro-exe.dir/src/exercise1.cpp.o CMakeFiles/Intro-exe.dir/src/main.cpp.o  -o Intro-exe 

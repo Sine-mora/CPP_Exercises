@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Functions_pt1-exe.dir/src/NumReverser.cpp.o CMakeFiles/Functions_pt1-exe.dir/src/main.cpp.o CMakeFiles/Functions_pt1-exe.dir/src/toword.cpp.o  -o Functions_pt1-exe -lpugixml 

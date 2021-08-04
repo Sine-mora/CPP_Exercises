@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/Desktop/Workspace/exercises/lambdaTest/src/main.cpp
+iostream
+-
+functional
+-
+cstdlib
+-
+ctime
+-
+random
+-
+

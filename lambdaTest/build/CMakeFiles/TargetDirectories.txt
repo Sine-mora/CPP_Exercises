@@ -1,0 +1,3 @@
+/home/default/Desktop/Workspace/exercises/lambdaTest/build/CMakeFiles/rebuild_cache.dir
+/home/default/Desktop/Workspace/exercises/lambdaTest/build/CMakeFiles/edit_cache.dir
+/home/default/Desktop/Workspace/exercises/lambdaTest/build/CMakeFiles/LambdaTest-exe.dir

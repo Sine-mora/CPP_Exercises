@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Intro-exe.dir/src/main.cpp.o CMakeFiles/Intro-exe.dir/src/task1.cpp.o  -o Intro-exe 

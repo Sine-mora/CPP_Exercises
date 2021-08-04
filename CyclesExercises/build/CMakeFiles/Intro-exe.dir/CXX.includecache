@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/main.cpp
+iostream
+-
+
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/task1.cpp
+task1.h
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/task1.h
+
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/task1.h
+iostream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/CycleTasks-exe.dir/src/main.cpp.o CMakeFiles/CycleTasks-exe.dir/src/task1.cpp.o  -o CycleTasks-exe 

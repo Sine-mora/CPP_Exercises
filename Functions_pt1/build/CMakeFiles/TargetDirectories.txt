@@ -1,0 +1,3 @@
+/home/default/Desktop/Workspace/exercises/Functions_pt1/build/CMakeFiles/rebuild_cache.dir
+/home/default/Desktop/Workspace/exercises/Functions_pt1/build/CMakeFiles/edit_cache.dir
+/home/default/Desktop/Workspace/exercises/Functions_pt1/build/CMakeFiles/Functions_pt1-exe.dir

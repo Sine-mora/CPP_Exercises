@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/NumReverser.cpp
+NumReverser.h
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/NumReverser.h
+
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/NumReverser.h
+iostream
+-
+string
+-
+vector
+-
+cmath
+-
+
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/main.cpp
+NumReverser.h
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/NumReverser.h
+toword.h
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/toword.h
+iostream
+-
+string
+-
+
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/toword.cpp
+toword.h
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/toword.h
+algorithm
+-
+
+/home/default/Desktop/Workspace/exercises/Functions_pt1/src/toword.h
+iostream
+-
+vector
+-
+

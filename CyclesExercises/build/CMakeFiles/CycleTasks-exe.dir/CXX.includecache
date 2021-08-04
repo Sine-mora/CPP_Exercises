@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/main.cpp
+task1.h
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/task1.h
+iostream
+-
+sstream
+-
+
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/task1.cpp
+cmath
+-
+task1.h
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/task1.h
+cmath
+-
+iostream
+-
+string
+-
+
+/home/default/Desktop/Workspace/exercises/CyclesExercises/src/task1.h
+iostream
+-
+

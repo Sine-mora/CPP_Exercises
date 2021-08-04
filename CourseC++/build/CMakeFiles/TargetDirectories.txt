@@ -1,0 +1,3 @@
+/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles/rebuild_cache.dir
+/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles/edit_cache.dir
+/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles/CPP-Course-exe.dir

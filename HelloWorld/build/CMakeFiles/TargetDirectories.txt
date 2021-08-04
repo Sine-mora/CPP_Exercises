@@ -1,0 +1,3 @@
+/home/default/Desktop/Workspace/exercises/HelloWorld/build/CMakeFiles/rebuild_cache.dir
+/home/default/Desktop/Workspace/exercises/HelloWorld/build/CMakeFiles/edit_cache.dir
+/home/default/Desktop/Workspace/exercises/HelloWorld/build/CMakeFiles/Hello-World-exe.dir

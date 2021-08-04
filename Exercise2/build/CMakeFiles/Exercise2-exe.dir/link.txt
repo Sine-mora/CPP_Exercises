@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Exercise2-exe.dir/src/employees.cpp.o CMakeFiles/Exercise2-exe.dir/src/exercise2.cpp.o CMakeFiles/Exercise2-exe.dir/src/main.cpp.o  -o Exercise2-exe 
