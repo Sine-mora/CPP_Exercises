@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wextra -pedantic -Werror -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/default/Desktop/Workspace/exercises/CourseC++/src -I/usr/include/SDL2 
+CXX_INCLUDES = -I/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src -I/usr/include/SDL2 
 

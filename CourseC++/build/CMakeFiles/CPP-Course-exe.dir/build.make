@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/default/Desktop/Workspace/exercises/CourseC++
+CMAKE_SOURCE_DIR = /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/default/Desktop/Workspace/exercises/CourseC++/build
+CMAKE_BINARY_DIR = /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CPP-Course-exe.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/CPP-Course-exe.dir/flags.make
 
 CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o: ../src/Arrays/Arrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Arrays/Arrays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Arrays/Arrays.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Arrays/Arrays.cpp > CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Arrays/Arrays.cpp > CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Arrays/Arrays.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Arrays/Arrays.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Arrays/Arrays.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o: ../src/BudgetAgario/Physiology.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Physiology.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Physiology.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Physiology.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Physiology.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Physiology.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Physiology.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Physiology.cpp.o.provides.build: 
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o: ../src/BudgetAgario/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Player.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Player.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Player.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Player.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Player.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Player.cpp.o.provides.build: CMak
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o: ../src/BudgetAgario/Spike.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Spike.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Spike.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Spike.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Spike.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/Spike.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/Spike.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/Spike.cpp.o.provides.build: CMake
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o: ../src/BudgetAgario/mainLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/mainLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/mainLoop.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/mainLoop.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/mainLoop.cpp > CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/BudgetAgario/mainLoop.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/BudgetAgario/mainLoop.cpp -o CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/CPP-Course-exe.dir/src/BudgetAgario/mainLoop.cpp.o.provides.build: CM
 
 CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o: ../src/Constructors/Constructors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Constructors/Constructors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Constructors/Constructors.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Constructors/Constructors.cpp > CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Constructors/Constructors.cpp > CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Constructors/Constructors.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Constructors/Constructors.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Constructors/Constructors.cpp.o.provides.build
 
 CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o: ../src/DeltaTime/DeltaTime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/DeltaTime/DeltaTime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/DeltaTime/DeltaTime.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/DeltaTime/DeltaTime.cpp > CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/DeltaTime/DeltaTime.cpp > CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/DeltaTime/DeltaTime.cpp -o CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/DeltaTime/DeltaTime.cpp -o CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/CPP-Course-exe.dir/src/DeltaTime/DeltaTime.cpp.o.provides.build: CMak
 
 CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o: ../src/Exceptions/Exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Exceptions/Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Exceptions/Exception.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Exceptions/Exception.cpp > CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Exceptions/Exception.cpp > CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Exceptions/Exception.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Exceptions/Exception.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Exceptions/Exception.cpp.o.provides.build: CMa
 
 CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o: ../src/Functions/Functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Functions/Functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Functions/Functions.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Functions/Functions.cpp > CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Functions/Functions.cpp > CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Functions/Functions.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Functions/Functions.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Functions/Functions.cpp.o.provides.build: CMak
 
 CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o: ../src/Inheritance/Inheritance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Inheritance/Inheritance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Inheritance/Inheritance.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Inheritance/Inheritance.cpp > CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Inheritance/Inheritance.cpp > CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Inheritance/Inheritance.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Inheritance/Inheritance.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Inheritance/Inheritance.cpp.o.provides.build: 
 
 CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o: ../src/Loops/Loops.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Loops/Loops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Loops/Loops.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Loops/Loops.cpp > CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Loops/Loops.cpp > CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Loops/Loops.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Loops/Loops.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Loops/Loops.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o: ../src/Objects/ATM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Objects/ATM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Objects/ATM.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Objects/ATM.cpp > CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Objects/ATM.cpp > CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Objects/ATM.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Objects/ATM.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Objects/ATM.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o: ../src/OverloadingOperators/Overloading.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/OverloadingOperators/Overloading.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/OverloadingOperators/Overloading.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/OverloadingOperators/Overloading.cpp > CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/OverloadingOperators/Overloading.cpp > CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/OverloadingOperators/Overloading.cpp -o CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/OverloadingOperators/Overloading.cpp -o CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/CPP-Course-exe.dir/src/OverloadingOperators/Overloading.cpp.o.provide
 
 CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o: ../src/Person/Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Person/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Person/Person.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Person/Person.cpp > CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Person/Person.cpp > CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Person/Person.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Person/Person.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Person/Person.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o: ../src/ReadingWritingFile/ReadFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/ReadingWritingFile/ReadFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/ReadingWritingFile/ReadFile.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/ReadingWritingFile/ReadFile.cpp > CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/ReadingWritingFile/ReadFile.cpp > CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/ReadingWritingFile/ReadFile.cpp -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/ReadingWritingFile/ReadFile.cpp -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/ReadFile.cpp.o.provides.bui
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o: ../src/ReadingWritingFile/WriteFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/ReadingWritingFile/WriteFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/ReadingWritingFile/WriteFile.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/ReadingWritingFile/WriteFile.cpp > CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/ReadingWritingFile/WriteFile.cpp > CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/ReadingWritingFile/WriteFile.cpp -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/ReadingWritingFile/WriteFile.cpp -o CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/CPP-Course-exe.dir/src/ReadingWritingFile/WriteFile.cpp.o.provides.bu
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o: ../src/STL/Arrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Arrays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Arrays.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Arrays.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Arrays.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Arrays.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Arrays.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/Arrays.cpp.o.provides.build: CMakeFiles/CP
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o: ../src/STL/LinkedLists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/LinkedLists.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/LinkedLists.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/LinkedLists.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/LinkedLists.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/LinkedLists.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/LinkedLists.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/LinkedLists.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o: ../src/STL/ListInList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/ListInList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/ListInList.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/ListInList.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/ListInList.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/ListInList.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/ListInList.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/ListInList.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o: ../src/STL/MapInMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MapInMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MapInMap.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MapInMap.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MapInMap.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MapInMap.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MapInMap.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/MapInMap.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o: ../src/STL/Maps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Maps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Maps.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Maps.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Maps.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Maps.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Maps.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/Maps.cpp.o.provides.build: CMakeFiles/CPP-
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o: ../src/STL/MultiMaps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MultiMaps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MultiMaps.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MultiMaps.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MultiMaps.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MultiMaps.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MultiMaps.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/MultiMaps.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o: ../src/STL/MultiSets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MultiSets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MultiSets.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MultiSets.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MultiSets.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/MultiSets.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/MultiSets.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/MultiSets.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o: ../src/STL/PriorityQueues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/PriorityQueues.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/PriorityQueues.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/PriorityQueues.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/PriorityQueues.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/PriorityQueues.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/PriorityQueues.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/PriorityQueues.cpp.o.provides.build: CMake
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o: ../src/STL/Queues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Queues.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Queues.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Queues.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Queues.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Queues.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Queues.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/Queues.cpp.o.provides.build: CMakeFiles/CP
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o: ../src/STL/Sets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Sets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Sets.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Sets.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Sets.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Sets.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Sets.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/Sets.cpp.o.provides.build: CMakeFiles/CPP-
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o: ../src/STL/Stacks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Stacks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Stacks.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Stacks.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Stacks.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Stacks.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Stacks.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/Stacks.cpp.o.provides.build: CMakeFiles/CP
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o: ../src/STL/Trees.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Trees.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Trees.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Trees.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Trees.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Trees.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Trees.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/Trees.cpp.o.provides.build: CMakeFiles/CPP
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o: ../src/STL/UnorderedMaps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/UnorderedMaps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/UnorderedMaps.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/UnorderedMaps.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/UnorderedMaps.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/UnorderedMaps.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/UnorderedMaps.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedMaps.cpp.o.provides.build: CMakeF
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o: ../src/STL/UnorderedSets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/UnorderedSets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/UnorderedSets.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/UnorderedSets.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/UnorderedSets.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/UnorderedSets.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/UnorderedSets.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/UnorderedSets.cpp.o.provides.build: CMakeF
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o: ../src/STL/VectorInVector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/VectorInVector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/VectorInVector.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/VectorInVector.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/VectorInVector.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/VectorInVector.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/VectorInVector.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/VectorInVector.cpp.o.provides.build: CMake
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o: ../src/STL/Vectors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Vectors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Vectors.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Vectors.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Vectors.cpp > CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/STL/Vectors.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/STL/Vectors.cpp -o CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/CPP-Course-exe.dir/src/STL/Vectors.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: ../src/StateMachine/GameMenuState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/GameMenuState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/GameMenuState.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/GameMenuState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/GameMenuState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/GameMenuState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/GameMenuState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o.provides.buil
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o: ../src/StateMachine/MovingDownState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingDownState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingDownState.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingDownState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingDownState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingDownState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingDownState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o.provides.bu
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o: ../src/StateMachine/MovingLeftState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingLeftState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingLeftState.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingLeftState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingLeftState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingLeftState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingLeftState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o.provides.bu
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o: ../src/StateMachine/MovingRightState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingRightState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingRightState.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingRightState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingRightState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingRightState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingRightState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o.provides.b
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o: ../src/StateMachine/MovingUpState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingUpState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingUpState.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingUpState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingUpState.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/MovingUpState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/MovingUpState.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o.provides.buil
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o: ../src/StateMachine/StateManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/StateManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/StateManager.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/StateManager.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/StateManager.cpp > CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/StateMachine/StateManager.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/StateMachine/StateManager.cpp -o CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o.provides.build
 
 CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o: ../src/Structs/Structs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Structs/Structs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Structs/Structs.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Structs/Structs.cpp > CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Structs/Structs.cpp > CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Structs/Structs.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Structs/Structs.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Structs/Structs.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: ../src/Utils/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/Utils/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Utils/Timer.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/Utils/Timer.cpp > CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Utils/Timer.cpp > CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/Utils/Timer.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/Utils/Timer.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o -c /home/default/Desktop/Workspace/exercises/CourseC++/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/main.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CourseC++/src/main.cpp > CMakeFiles/CPP-Course-exe.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/main.cpp > CMakeFiles/CPP-Course-exe.dir/src/main.cpp.i
 
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CourseC++/src/main.cpp -o CMakeFiles/CPP-Course-exe.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/src/main.cpp -o CMakeFiles/CPP-Course-exe.dir/src/main.cpp.s
 
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o.requires:
 
@@ -1131,7 +1131,7 @@ CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/build.make
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable CPP-Course-exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable CPP-Course-exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP-Course-exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1188,6 +1188,6 @@ CMakeFiles/CPP-Course-exe.dir/clean:
 .PHONY : CMakeFiles/CPP-Course-exe.dir/clean
 
 CMakeFiles/CPP-Course-exe.dir/depend:
-	cd /home/default/Desktop/Workspace/exercises/CourseC++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/default/Desktop/Workspace/exercises/CourseC++ /home/default/Desktop/Workspace/exercises/CourseC++ /home/default/Desktop/Workspace/exercises/CourseC++/build /home/default/Desktop/Workspace/exercises/CourseC++/build /home/default/Desktop/Workspace/exercises/CourseC++/build/CMakeFiles/CPP-Course-exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++ /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++ /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build /home/default/Desktop/Workspace/exercises/CPP_Exercises/CourseC++/build/CMakeFiles/CPP-Course-exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CPP-Course-exe.dir/depend
 
