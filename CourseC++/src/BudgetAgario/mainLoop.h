@@ -34,7 +34,7 @@ private:
     StateManager m_stateManager;
 //    Timer m_timer = Timer::Get();
     SDL_Window* m_window;
-   // SDL_Event m_event;
+    //SDL_Event m_event;
     SDL_Renderer* m_renderer;
     SDL_Texture *m_image;
     SDL_Rect m_textureRect;

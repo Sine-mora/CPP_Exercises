@@ -1,0 +1,3 @@
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles/rebuild_cache.dir
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles/edit_cache.dir
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles/CPP-Course-exe.dir
