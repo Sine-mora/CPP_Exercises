@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/default/Desktop/Workspace/exercises/CPP_Exercises/Budge
 CMakeFiles/CPP-Course-exe.dir/all:
 	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/depend
 	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target CPP-Course-exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target CPP-Course-exe"
 .PHONY : CMakeFiles/CPP-Course-exe.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/CPP-Course-exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CPP-Course-exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CPP-Course-exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/buildQt/CMakeFiles 0
 .PHONY : CMakeFiles/CPP-Course-exe.dir/rule

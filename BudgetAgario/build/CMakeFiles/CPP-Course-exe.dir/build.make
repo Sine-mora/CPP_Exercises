@@ -273,9 +273,57 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o.provides: CMak
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o.provides.build: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o
 
 
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o: ../src/Utils/EasingFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o"
+	distcc /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Utils/EasingFunctions.cpp
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Utils/EasingFunctions.cpp > CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.i
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Utils/EasingFunctions.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.s
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.requires:
+
+.PHONY : CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.requires
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.provides: CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.provides
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.provides.build: CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o
+
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o: ../src/Utils/Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o"
+	distcc /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Utils/Sprite.cpp
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Utils/Sprite.cpp > CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.i
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Utils/Sprite.cpp -o CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.s
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.requires:
+
+.PHONY : CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.requires
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.provides: CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.provides
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.provides.build: CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o
+
+
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: ../src/Utils/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o"
 	distcc /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Utils/Timer.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.i: cmake_force
@@ -299,7 +347,7 @@ CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o"
 	distcc /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/main.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.i: cmake_force
@@ -323,7 +371,7 @@ CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o.provides.build: CMakeFiles/CPP-Cour
 
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: CMakeFiles/CPP-Course-exe.dir/flags.make
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/mainLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o"
 	distcc /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o -c /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/mainLoop.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.i: cmake_force
@@ -356,6 +404,8 @@ CPP__Course__exe_OBJECTS = \
 "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o" \
 "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o" \
 "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o" \
+"CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o" \
+"CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o" \
 "CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o" \
 "CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o" \
 "CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o"
@@ -372,12 +422,14 @@ CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.c
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o
+CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o
+CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/build.make
 CPP-Course-exe: CMakeFiles/CPP-Course-exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable CPP-Course-exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable CPP-Course-exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP-Course-exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -394,6 +446,8 @@ CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/StateM
 CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o.requires
 CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o.requires
 CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o.requires
+CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o.requires
+CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o.requires
 CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o.requires
 CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o.requires
 CMakeFiles/CPP-Course-exe.dir/requires: CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o.requires

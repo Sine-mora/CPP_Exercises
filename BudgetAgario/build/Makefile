@@ -366,6 +366,60 @@ src/StateMachine/StateManager.cpp.s:
 	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.s
 .PHONY : src/StateMachine/StateManager.cpp.s
 
+src/Utils/EasingFunctions.o: src/Utils/EasingFunctions.cpp.o
+
+.PHONY : src/Utils/EasingFunctions.o
+
+# target to build an object file
+src/Utils/EasingFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o
+.PHONY : src/Utils/EasingFunctions.cpp.o
+
+src/Utils/EasingFunctions.i: src/Utils/EasingFunctions.cpp.i
+
+.PHONY : src/Utils/EasingFunctions.i
+
+# target to preprocess a source file
+src/Utils/EasingFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.i
+.PHONY : src/Utils/EasingFunctions.cpp.i
+
+src/Utils/EasingFunctions.s: src/Utils/EasingFunctions.cpp.s
+
+.PHONY : src/Utils/EasingFunctions.s
+
+# target to generate assembly for a file
+src/Utils/EasingFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.s
+.PHONY : src/Utils/EasingFunctions.cpp.s
+
+src/Utils/Sprite.o: src/Utils/Sprite.cpp.o
+
+.PHONY : src/Utils/Sprite.o
+
+# target to build an object file
+src/Utils/Sprite.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o
+.PHONY : src/Utils/Sprite.cpp.o
+
+src/Utils/Sprite.i: src/Utils/Sprite.cpp.i
+
+.PHONY : src/Utils/Sprite.i
+
+# target to preprocess a source file
+src/Utils/Sprite.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.i
+.PHONY : src/Utils/Sprite.cpp.i
+
+src/Utils/Sprite.s: src/Utils/Sprite.cpp.s
+
+.PHONY : src/Utils/Sprite.s
+
+# target to generate assembly for a file
+src/Utils/Sprite.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.s
+.PHONY : src/Utils/Sprite.cpp.s
+
 src/Utils/Timer.o: src/Utils/Timer.cpp.o
 
 .PHONY : src/Utils/Timer.o
@@ -483,6 +537,12 @@ help:
 	@echo "... src/StateMachine/StateManager.o"
 	@echo "... src/StateMachine/StateManager.i"
 	@echo "... src/StateMachine/StateManager.s"
+	@echo "... src/Utils/EasingFunctions.o"
+	@echo "... src/Utils/EasingFunctions.i"
+	@echo "... src/Utils/EasingFunctions.s"
+	@echo "... src/Utils/Sprite.o"
+	@echo "... src/Utils/Sprite.i"
+	@echo "... src/Utils/Sprite.s"
 	@echo "... src/Utils/Timer.o"
 	@echo "... src/Utils/Timer.i"
 	@echo "... src/Utils/Timer.s"

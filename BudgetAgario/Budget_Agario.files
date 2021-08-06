@@ -53,6 +53,12 @@ src/StateMachine/MovingUpState.cpp
 src/StateMachine/MovingUpState.h
 src/StateMachine/StateManager.cpp
 src/StateMachine/StateManager.h
+src/Utils/EasingFunctions.cpp
+src/Utils/EasingFunctions.h
+src/Utils/Interpolator.h
+src/Utils/Interpolator.hpp
+src/Utils/Sprite.cpp
+src/Utils/Sprite.h
 src/Utils/Timer.cpp
 src/Utils/Timer.h
 src/main.cpp

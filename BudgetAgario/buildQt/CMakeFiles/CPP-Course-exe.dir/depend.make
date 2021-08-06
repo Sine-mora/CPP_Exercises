@@ -53,11 +53,22 @@ CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o: ../src/StateM
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o: ../src/StateMachine/StateManager.cpp
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o: ../src/StateMachine/StateManager.h
 
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o: ../src/Utils/EasingFunctions.cpp
+CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o: ../src/Utils/EasingFunctions.h
+
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o: ../src/Utils/EasingFunctions.h
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o: ../src/Utils/Interpolator.h
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o: ../src/Utils/Interpolator.hpp
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o: ../src/Utils/Sprite.cpp
+CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o: ../src/Utils/Sprite.h
+
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: ../src/IExercise.h
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: ../src/Utils/Timer.cpp
 CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: ../src/Utils/Timer.h
 
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/IExercise.h
+CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/Interpolator.h
+CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/Interpolator.hpp
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/EState.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/GameMenuState.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/IState.h
@@ -66,11 +77,16 @@ CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/MovingLeftStat
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/MovingRightState.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/MovingUpState.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/StateManager.h
+CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/EasingFunctions.h
+CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/Interpolator.h
+CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/Sprite.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/Timer.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/mainLoop.h
 
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/IExercise.h
+CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/Interpolator.h
+CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/Interpolator.hpp
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/EState.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/GameMenuState.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/IState.h
@@ -79,6 +95,9 @@ CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/MovingLeft
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/MovingRightState.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/MovingUpState.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/StateManager.h
+CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/EasingFunctions.h
+CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/Interpolator.h
+CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/Sprite.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/Timer.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/mainLoop.cpp
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/mainLoop.h

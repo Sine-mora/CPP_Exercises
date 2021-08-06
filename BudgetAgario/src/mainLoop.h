@@ -5,13 +5,16 @@
 #include <cstring>
 #include <iostream>
 #include <string>
+#include "Utils/Sprite.h"
 #include "Utils/Timer.h"
+#include "Utils/Interpolator.h"
 #include "StateMachine/StateManager.h"
 #include "StateMachine/GameMenuState.h"
 #include "StateMachine/MovingDownState.h"
 #include "StateMachine/MovingLeftState.h"
 #include "StateMachine/MovingRightState.h"
 #include "StateMachine/MovingUpState.h"
+
 
 class GameLoop : public IExercise
 {
@@ -35,6 +38,7 @@ public:
 
 private:
     std::string GetCurrWorkingDir() const;
+    bool GetUserFunc(Easing::EFunctions& outFunc);
 private:
     StateManager m_stateManager;
     SDL_Window* m_window;
@@ -56,4 +60,7 @@ private:
   //short m_sAmountOfFood;
   //short m_sAmountOfSpikes;
     bool m_isRunning;
+
+
+    Sprite m_yoshi;
 };

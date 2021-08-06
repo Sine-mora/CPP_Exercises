@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingRightState.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingUpState.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/StateManager.cpp.o"
+  "CMakeFiles/CPP-Course-exe.dir/src/Utils/EasingFunctions.cpp.o"
+  "CMakeFiles/CPP-Course-exe.dir/src/Utils/Sprite.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o"

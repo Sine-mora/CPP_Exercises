@@ -14,7 +14,8 @@ GameLoop::GameLoop()
       m_ProjectileVelocity{GetProjectileVelocity()},
       m_strImagePath{"../assets/foxy_fox.png"}, m_nTextureWidth{0}, m_nTextureHeight{0},
       m_FPS{60}, m_FRAME_TARGET_TIME{1000 / m_FPS}, m_nTicksLastFrame{0},
-      m_hasNotReachedEndX{true}, m_hasNotReachedEndY{true}, m_isRunning{false}
+      m_hasNotReachedEndX{true}, m_hasNotReachedEndY{true}, m_isRunning{false},
+      m_yoshi{}
 {
 }
 
@@ -111,7 +112,13 @@ bool GameLoop::Initialize(
 
     if (!LoadImage())
     {
-        std::cerr << " image go brrr :P";
+        std::cerr << " image go brrr :P\n";
+        return false;
+    }
+
+    if (!m_yoshi.Load(m_renderer, "../assets/yoshi.png"))
+    {
+        std::cerr << " failed to load yoshi :(\n";
         return false;
     }
 
@@ -140,6 +147,21 @@ std::string GameLoop::GetCurrWorkingDir() const
     }
 #endif
     return "I don't know, why you asking me.";
+}
+
+bool GameLoop::GetUserFunc(Easing::EFunctions& outFunc)
+{
+    int index = 0;
+    std::cout << " enter an easing func: ";
+    std::cin >> index;
+    static constexpr auto BEGIN{static_cast<int>(Easing::EFunctions::eEaseLinear)};
+    static constexpr auto END{static_cast<int>(Easing::EFunctions::eEaseInOutBounce)};
+    if( index >= BEGIN && index <= END)
+    {
+        outFunc = static_cast<Easing::EFunctions>(index);
+        return false;
+    }
+    return true;
 }
 
 void GameLoop::CheckPos(float deltaTime)
@@ -191,6 +213,7 @@ void GameLoop::CheckPos(float deltaTime)
 
     //if (isUpdateY)
         m_stateManager.Update(deltaTime);
+
 }
 
 void GameLoop::ProcessInput()
@@ -253,6 +276,29 @@ void GameLoop::ProcessInput()
                 std::cout << "2\n";
                 break;
             }
+            case SDLK_o:
+            {
+                SDL_Rect rectStart = m_yoshi.m_destRect;
+                const auto& windowSize = SharedData::Get().GetWindowDimensions();
+                SDL_Rect rectEnd;
+                rectEnd.w = rectStart.w / 2;
+                rectEnd.h = rectStart.h / 2;
+                rectEnd.x = windowSize.x - rectEnd.w;
+                rectEnd.y = windowSize.y - rectEnd.h;
+                Easing::EFunctions eFunc{Easing::EFunctions::eEaseLinear};
+                while(GetUserFunc(eFunc));
+                m_yoshi.ResetDestRect();
+                m_yoshi.Start(rectStart, rectEnd, 5, eFunc);
+                break;
+            }
+            case SDLK_p:
+            {
+                const auto& windowSize = SharedData::Get().GetWindowDimensions();
+                SDL_Point posStart{ windowSize.x - m_yoshi.m_destRect.w, windowSize.y - m_yoshi.m_destRect.h};
+                SDL_Point posEnd{0, 0};
+                m_yoshi.Start(posStart, posEnd, 5, Easing::EFunctions::eEaseOutBounce);
+                break;
+            }
             default:
                 break;
             }
@@ -273,7 +319,7 @@ void GameLoop::Update()
 
     // The Delta time is the difference between in ticks from last frame converted to
     // seconds
-    float deltaTime = (SDL_GetTicks() - m_nTicksLastFrame) / 1000.0f;
+    float deltaTime = (SDL_GetTicks() - m_nTicksLastFrame) / 1000.0;
 
     // Clamp Delta time to a maximum value
     deltaTime = (deltaTime > 0.05f) ? 0.05f : deltaTime;
@@ -285,6 +331,7 @@ void GameLoop::Update()
     // std::cout << "FPS: " << FPS << ", deltaTime: " << deltaTime << "\n";
 
     CheckPos(deltaTime);
+    m_yoshi.Update(deltaTime);
 }
 
 void GameLoop::Render()
@@ -293,7 +340,7 @@ void GameLoop::Render()
     SDL_RenderClear(m_renderer);
 
     SDL_RenderCopy(m_renderer, m_image, nullptr, &m_textureRect);
-
+    m_yoshi.Draw(m_renderer);
     SDL_RenderPresent(m_renderer);
 }
 
