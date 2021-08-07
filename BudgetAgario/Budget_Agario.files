@@ -39,6 +39,8 @@ src/Player.cpp
 src/Player.h
 src/Spike.cpp
 src/Spike.h
+src/StateMachine/CheckPositionState.cpp
+src/StateMachine/CheckPositionState.h
 src/StateMachine/EState.h
 src/StateMachine/GameMenuState.cpp
 src/StateMachine/GameMenuState.h

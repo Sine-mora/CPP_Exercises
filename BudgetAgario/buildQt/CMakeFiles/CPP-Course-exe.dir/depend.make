@@ -7,6 +7,14 @@ CMakeFiles/CPP-Course-exe.dir/src/Player.cpp.o: ../src/Player.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Spike.cpp.o: ../src/Spike.cpp
 
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o: ../src/IExercise.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o: ../src/Utils/Timer.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o: ../src/StateMachine/Checkpositionstate.cpp
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o: ../src/StateMachine/Checkpositionstate.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o: ../src/StateMachine/EState.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o: ../src/StateMachine/IState.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o: ../src/StateMachine/StateManager.h
+
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: ../src/IExercise.h
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: ../src/Utils/Timer.h
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: ../src/StateMachine/EState.h

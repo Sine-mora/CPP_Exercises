@@ -204,6 +204,33 @@ src/Spike.cpp.s:
 	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/Spike.cpp.s
 .PHONY : src/Spike.cpp.s
 
+src/StateMachine/CheckPositionState.o: src/StateMachine/CheckPositionState.cpp.o
+
+.PHONY : src/StateMachine/CheckPositionState.o
+
+# target to build an object file
+src/StateMachine/CheckPositionState.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o
+.PHONY : src/StateMachine/CheckPositionState.cpp.o
+
+src/StateMachine/CheckPositionState.i: src/StateMachine/CheckPositionState.cpp.i
+
+.PHONY : src/StateMachine/CheckPositionState.i
+
+# target to preprocess a source file
+src/StateMachine/CheckPositionState.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.i
+.PHONY : src/StateMachine/CheckPositionState.cpp.i
+
+src/StateMachine/CheckPositionState.s: src/StateMachine/CheckPositionState.cpp.s
+
+.PHONY : src/StateMachine/CheckPositionState.s
+
+# target to generate assembly for a file
+src/StateMachine/CheckPositionState.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP-Course-exe.dir/build.make CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.s
+.PHONY : src/StateMachine/CheckPositionState.cpp.s
+
 src/StateMachine/GameMenuState.o: src/StateMachine/GameMenuState.cpp.o
 
 .PHONY : src/StateMachine/GameMenuState.o
@@ -519,6 +546,9 @@ help:
 	@echo "... src/Spike.o"
 	@echo "... src/Spike.i"
 	@echo "... src/Spike.s"
+	@echo "... src/StateMachine/CheckPositionState.o"
+	@echo "... src/StateMachine/CheckPositionState.i"
+	@echo "... src/StateMachine/CheckPositionState.s"
 	@echo "... src/StateMachine/GameMenuState.o"
 	@echo "... src/StateMachine/GameMenuState.i"
 	@echo "... src/StateMachine/GameMenuState.s"

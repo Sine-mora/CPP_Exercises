@@ -278,183 +278,193 @@ static const FuncType easeInSine = [](float fT)
     return sineEaseIn(fT);
 };
 
-static const FuncType easeOutSine = [](float fT)
-{
-    return sineEaseOut(fT);
-};
+    static const FuncType easeOutSine = [](float fT)
+    {
+        return sineEaseOut(fT);
+    };
 
-static const FuncType easeInOutSine = [](float fT)
-{
-    return sineEaseInOut(fT);
-};
+        static const FuncType easeInOutSine = [](float fT)
+        {
+            return sineEaseInOut(fT);
+        };
 
 static const FuncType easeInQuad = [](float fT)
 {
     return quadraticEaseIn(fT);
 };
 
-static const FuncType easeOutQuad = [](float fT)
-{
-    return quadraticEaseOut(fT);
-};
+    static const FuncType easeOutQuad = [](float fT)
+    {
+        return quadraticEaseOut(fT);
+    };
 
-static const FuncType easeInOutQuad = [](float fT)
-{
-    return quadraticEaseInOut(fT);
-};
+        static const FuncType easeInOutQuad = [](float fT)
+        {
+            return quadraticEaseInOut(fT);
+        };
 
 static const FuncType easeInCubic = [](float fT)
 {
     return cubicEaseIn(fT);
 };
 
-static const FuncType easeOutCubic = [](float fT)
-{
-    return cubicEaseOut(fT);
-};
+    static const FuncType easeOutCubic = [](float fT)
+    {
+        return cubicEaseOut(fT);
+    };
 
-static const FuncType easeInOutCubic = [](float fT)
-{
-    return cubicEaseInOut(fT);
-};
+        static const FuncType easeInOutCubic = [](float fT)
+        {
+            return cubicEaseInOut(fT);
+        };
 
 static const FuncType easeInQuart = [](float fT)
 {
     return quarticEaseIn(fT);
 };
 
-static const FuncType easeOutQuart = [](float fT)
-{
-    return quarticEaseOut(fT);
-};
+    static const FuncType easeOutQuart = [](float fT)
+    {
+        return quarticEaseOut(fT);
+    };
 
-static const FuncType easeInOutQuart = [](float fT)
-{
-    return quarticEaseInOut(fT);
-};
+        static const FuncType easeInOutQuart = [](float fT)
+        {
+            return quarticEaseInOut(fT);
+        };
 
 static const FuncType easeInQuint = [](float fT)
 {
     return quinticEaseIn(fT);
 };
 
-static const FuncType easeOutQuint = [](float fT)
-{
-    return quinticEaseOut(fT);
-};
+    static const FuncType easeOutQuint = [](float fT)
+    {
+        return quinticEaseOut(fT);
+    };
 
-static const FuncType easeInOutQuint = [](float fT)
-{
-    return quinticEaseInOut(fT);
-};
+        static const FuncType easeInOutQuint = [](float fT)
+        {
+            return quinticEaseInOut(fT);
+        };
 
 static const FuncType easeInExpo = [](float fT)
 {
     return exponentialEaseIn(fT);
 };
 
-static const FuncType easeOutExpo = [](float fT)
-{
-    return exponentialEaseOut(fT);
-};
+    static const FuncType easeOutExpo = [](float fT)
+    {
+        return exponentialEaseOut(fT);
+    };
 
-static const FuncType easeInOutExpo = [](float fT)
-{
-    return exponentialEaseInOut(fT);
-};
+        static const FuncType easeInOutExpo = [](float fT)
+        {
+            return exponentialEaseInOut(fT);
+        };
 
 static const FuncType easeInCirc = [](float fT)
 {
     return circularEaseIn(fT);
 };
 
-static const FuncType easeOutCirc = [](float fT)
-{
-    return circularEaseOut(fT);
-};
+    static const FuncType easeOutCirc = [](float fT)
+    {
+        return circularEaseOut(fT);
+    };
 
-static const FuncType easeInOutCirc = [](float fT)
-{
-    return circularEaseInOut(fT);
-};
+        static const FuncType easeInOutCirc = [](float fT)
+        {
+            return circularEaseInOut(fT);
+        };
 
 static const FuncType easeInBack = [](float fT)
 {
     return backEaseIn(fT);
 };
 
-static const FuncType easeOutBack = [](float fT)
-{
-    return backEaseOut(fT);
-};
+    static const FuncType easeOutBack = [](float fT)
+    {
+        return backEaseOut(fT);
+    };
 
-static const FuncType easeInOutBack = [](float fT)
-{
-    return backEaseInOut(fT);
-};
+        static const FuncType easeInOutBack = [](float fT)
+        {
+            return backEaseInOut(fT);
+        };
 
 static const FuncType easeInElastic = [](float fT)
 {
     return elasticEaseIn(fT);
 };
 
-static const FuncType easeOutElastic = [](float fT)
-{
-    return elasticEaseOut(fT);
-};
+    static const FuncType easeOutElastic = [](float fT)
+    {
+        return elasticEaseOut(fT);
+    };
 
-static const FuncType easeInOutElastic = [](float fT)
-{
-    return elasticEaseInOut(fT);
-};
+        static const FuncType easeInOutElastic = [](float fT)
+        {
+            return elasticEaseInOut(fT);
+        };
 
 static const FuncType easeInBounce = [](float fT)
 {
     return bounceEaseIn(fT);
 };
 
-static const FuncType easeOutBounce = [](float fT)
-{
-    return bounceEaseOut(fT);
-};
+    static const FuncType easeOutBounce = [](float fT)
+    {
+        return bounceEaseOut(fT);
+    };
 
-static const FuncType easeInOutBounce = [](float fT)
-{
-    return bounceEaseInOut(fT);
-};
+        static const FuncType easeInOutBounce = [](float fT)
+        {
+            return bounceEaseInOut(fT);
+        };
 
 const FuncType& GetEasingFunc(EFunctions eFunction)
 {
     static const std::unordered_map<EFunctions, FuncType> s_mapFuncs
     {
             { EFunctions::eEaseLinear, easeLinear},
+
             { EFunctions::eEaseInSine, easeInSine},
             { EFunctions::eEaseOutSine, easeOutSine},
             { EFunctions::eEaseInOutSine, easeInOutSine},
+
             { EFunctions::eEaseInQuad, easeInQuad},
             { EFunctions::eEaseOutQuad, easeOutQuad},
             { EFunctions::eEaseInOutQuad, easeInOutQuad},
+
             { EFunctions::eEaseInCubic, easeInCubic},
             { EFunctions::eEaseOutCubic, easeOutCubic},
             { EFunctions::eEaseInOutCubic, easeInOutCubic},
+
             { EFunctions::eEaseInQuart, easeInQuart},
             { EFunctions::eEaseOutQuart, easeOutQuart},
             { EFunctions::eEaseInOutQuart, easeInOutQuart},
+
             { EFunctions::eEaseInQuint, easeInQuint},
             { EFunctions::eEaseOutQuint, easeOutQuint},
             { EFunctions::eEaseInOutQuint, easeInOutQuint},
+
             { EFunctions::eEaseInExpo, easeInExpo},
             { EFunctions::eEaseOutExpo, easeOutExpo},
             { EFunctions::eEaseInOutExpo, easeInOutExpo},
+
             { EFunctions::eEaseInCirc, easeInCirc},
             { EFunctions::eEaseOutCirc, easeOutCirc},
             { EFunctions::eEaseInOutCirc, easeInOutCirc},
+
             { EFunctions::eEaseInBack, easeInBack},
             { EFunctions::eEaseOutBack, easeOutBack},
             { EFunctions::eEaseInOutBack, easeInOutBack},
+
             { EFunctions::eEaseInElastic, easeInElastic},
             { EFunctions::eEaseOutElastic, easeOutElastic},
             { EFunctions::eEaseInOutElastic, easeInOutElastic},
+
             { EFunctions::eEaseInBounce, easeInBounce},
             { EFunctions::eEaseOutBounce, easeOutBounce},
             { EFunctions::eEaseInOutBounce, easeInOutBounce}

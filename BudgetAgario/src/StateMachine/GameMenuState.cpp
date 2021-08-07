@@ -14,9 +14,9 @@ void GameMenuState::OnEnter()
 {
     std::cout << "\nGameMenuState - OnEnter: ";
     SharedData::Get().TimerStart(2);
-    SharedData::Get().SetOnTick([](double dElapsedTime) {
-        std::cout << "Game Menu state : Elapsed time: " << dElapsedTime << "\n";
-    });
+//    SharedData::Get().SetOnTick([](double dElapsedTime) {
+//        std::cout << "Game Menu state : Elapsed time: " << dElapsedTime << "\n";
+//    });
 
 }
 

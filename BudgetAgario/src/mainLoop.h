@@ -14,6 +14,7 @@
 #include "StateMachine/MovingLeftState.h"
 #include "StateMachine/MovingRightState.h"
 #include "StateMachine/MovingUpState.h"
+#include "StateMachine/CheckPositionState.h"
 
 
 class GameLoop : public IExercise
@@ -40,7 +41,7 @@ private:
     std::string GetCurrWorkingDir() const;
     bool GetUserFunc(Easing::EFunctions& outFunc);
 private:
-    StateManager m_stateManager;
+    StateManager m_stateManagerForX, m_stateManagerForY;
     SDL_Window* m_window;
     SDL_Event m_event;
     SDL_Renderer* m_renderer;

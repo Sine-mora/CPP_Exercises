@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP-Course-exe.dir/src/Physiology.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/Player.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/Spike.cpp.o"
+  "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/Checkpositionstate.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingDownState.cpp.o"
   "CMakeFiles/CPP-Course-exe.dir/src/StateMachine/MovingLeftState.cpp.o"

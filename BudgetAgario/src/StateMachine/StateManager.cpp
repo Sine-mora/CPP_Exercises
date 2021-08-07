@@ -15,7 +15,7 @@ void StateManager::Update(float fDeltaTime)
     }
     else
     {
-        std::cout <<"\nNULLPTR\n";
+        std::cout <<"\nElse in Update\n";
     }
 }
 void StateManager::ChangeState(const EState eStateName)
@@ -23,13 +23,13 @@ void StateManager::ChangeState(const EState eStateName)
 
     if (m_ptrCurrentState)
     {
+        std::cout <<"\nChange State:\n";
         m_ptrCurrentState->OnExit();
     }
 
     //m_iterCurrentState = m_mapStates.find(eStateName);
     auto stateIt = m_mapStates.find(eStateName);
-    if (stateIt != m_mapStates.end())
-    {
+    if (stateIt != m_mapStates.end())    {
         m_ptrCurrentState = stateIt->second.get();
         m_ptrCurrentState->OnEnter();
     }

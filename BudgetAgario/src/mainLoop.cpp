@@ -9,13 +9,12 @@
 #endif
 
 GameLoop::GameLoop()
-    : m_stateManager{}, m_window{nullptr}, m_event{}, m_renderer{nullptr},
+    : m_stateManagerForX{},m_stateManagerForY{}, m_window{nullptr}, m_event{}, m_renderer{nullptr},
       m_image{nullptr}, m_textureRect{GetTextureRect()},
       m_ProjectileVelocity{GetProjectileVelocity()},
       m_strImagePath{"../assets/foxy_fox.png"}, m_nTextureWidth{0}, m_nTextureHeight{0},
       m_FPS{60}, m_FRAME_TARGET_TIME{1000 / m_FPS}, m_nTicksLastFrame{0},
-      m_hasNotReachedEndX{true}, m_hasNotReachedEndY{true}, m_isRunning{false},
-      m_yoshi{}
+      m_hasNotReachedEndX{true}, m_hasNotReachedEndY{true}, m_isRunning{false}, m_yoshi{}
 {
 }
 
@@ -47,7 +46,7 @@ void GameLoop::RunExercise()
         return;
     }
 
-    m_stateManager.ChangeState(EState::eGameMenuState);
+    m_stateManagerForX.ChangeState(EState::eGameMenuState);
 
     while (IsRunning())
     {
@@ -122,11 +121,14 @@ bool GameLoop::Initialize(
         return false;
     }
 
-    m_stateManager.RegisterState(new GameMenuState(&m_stateManager));
-    m_stateManager.RegisterState(new MovingUpState(&m_stateManager));
-    m_stateManager.RegisterState(new MovingDownState(&m_stateManager));
-    m_stateManager.RegisterState(new MovingLeftState(&m_stateManager));
-    m_stateManager.RegisterState(new MovingRightState(&m_stateManager));
+    m_stateManagerForX.RegisterState(new GameMenuState(&m_stateManagerForX));
+    m_stateManagerForX.RegisterState(new MovingLeftState(&m_stateManagerForX));
+    m_stateManagerForX.RegisterState(new MovingRightState(&m_stateManagerForX));
+    m_stateManagerForX.RegisterState(new CheckPositionStateForX(&m_stateManagerForX));
+    m_stateManagerForY.RegisterState(new CheckPositionStateForY(&m_stateManagerForY));
+    m_stateManagerForY.RegisterState(new MovingUpState(&m_stateManagerForY));
+    m_stateManagerForY.RegisterState(new MovingDownState(&m_stateManagerForY));
+
 
     m_isRunning = true;
     return true;
@@ -156,7 +158,7 @@ bool GameLoop::GetUserFunc(Easing::EFunctions& outFunc)
     std::cin >> index;
     static constexpr auto BEGIN{static_cast<int>(Easing::EFunctions::eEaseLinear)};
     static constexpr auto END{static_cast<int>(Easing::EFunctions::eEaseInOutBounce)};
-    if( index >= BEGIN && index <= END)
+    if (index >= BEGIN && index <= END)
     {
         outFunc = static_cast<Easing::EFunctions>(index);
         return false;
@@ -166,54 +168,17 @@ bool GameLoop::GetUserFunc(Easing::EFunctions& outFunc)
 
 void GameLoop::CheckPos(float deltaTime)
 {
-    // by X
-    //bool isUpdateX = false;
-   // if (m_textureRect.x <= (m_nWindowWidth - m_textureRect.w) && m_hasNotReachedEndX)
-   // {
-        m_stateManager.ChangeState(EState::eMovingRightState);
-    //    isUpdateX = true;
-   // }
-    //else if (m_textureRect.x <= 0 && !m_hasNotReachedEndX)
-   // {
-    //    m_hasNotReachedEndX = true;
-        // m_textureRect.x += static_cast<int>(m_ProjectileVelocity.y * deltaTime);
-        m_stateManager.ChangeState(EState::eMovingRightState);
-    //    isUpdateX = true;
-   // }
-   // else
-   // {
-//        m_hasNotReachedEndX = false;
-        m_stateManager.ChangeState(EState::eMovingLeftState);
-    //    isUpdateX = true;
-   // }
+    // By X
+    (void) deltaTime;
+    m_stateManagerForX.ChangeState(EState::eCheckPositionState);
 
-  //  if (isUpdateX)
-        m_stateManager.Update(deltaTime);
+ // m_stateManagerForX.Update(deltaTime);
 
-    // m_textureRect.y Projectile's X and Y
-   // bool isUpdateY = false;
-   // if (m_textureRect.y <= (m_nWindowHeight - m_textureRect.h) && m_hasNotReachedEndY)
-   //{
-        m_stateManager.ChangeState(EState::eMovingDownState);
-   //     isUpdateY = true;
-   // }
-    //else if (m_textureRect.y <= 0 && !m_hasNotReachedEndY)
-   // {
-    //    m_hasNotReachedEndY = true;
-        // m_textureRect.y += static_cast<int>(m_fProjectileVelY * deltaTime);
-        m_stateManager.ChangeState(EState::eMovingDownState);
-   //     isUpdateY = true;
-    //}
-    //else
-    //{
-    //    m_hasNotReachedEndY = false;
-        m_stateManager.ChangeState(EState::eMovingUpState);
-    //    isUpdateY = true;
-   // }
+    // By Y
 
-    //if (isUpdateY)
-        m_stateManager.Update(deltaTime);
+    m_stateManagerForY.ChangeState(EState::eCheckPositionState);
 
+  //  m_stateManagerForY.Update(deltaTime);
 }
 
 void GameLoop::ProcessInput()
@@ -265,8 +230,8 @@ void GameLoop::ProcessInput()
                 std::cout << "1\n";
                 SharedData::Get().SetOnTick([this](double dElapsedTime) {
                     std::cout << "lambda\n";
-                    m_textureRect.w += 2 * dElapsedTime * 0.5;
-                    m_textureRect.h += 2 * dElapsedTime * 0.5;
+                    m_textureRect.w += static_cast<int>(2 * dElapsedTime * 0.5);
+                    m_textureRect.h += static_cast<int>(2 * dElapsedTime * 0.5);
                 });
 
                 break;
@@ -286,7 +251,8 @@ void GameLoop::ProcessInput()
                 rectEnd.x = windowSize.x - rectEnd.w;
                 rectEnd.y = windowSize.y - rectEnd.h;
                 Easing::EFunctions eFunc{Easing::EFunctions::eEaseLinear};
-                while(GetUserFunc(eFunc));
+                while (GetUserFunc(eFunc))
+                    ;
                 m_yoshi.ResetDestRect();
                 m_yoshi.Start(rectStart, rectEnd, 5, eFunc);
                 break;
@@ -294,7 +260,8 @@ void GameLoop::ProcessInput()
             case SDLK_p:
             {
                 const auto& windowSize = SharedData::Get().GetWindowDimensions();
-                SDL_Point posStart{ windowSize.x - m_yoshi.m_destRect.w, windowSize.y - m_yoshi.m_destRect.h};
+                SDL_Point posStart{windowSize.x - m_yoshi.m_destRect.w,
+                                   windowSize.y - m_yoshi.m_destRect.h};
                 SDL_Point posEnd{0, 0};
                 m_yoshi.Start(posStart, posEnd, 5, Easing::EFunctions::eEaseOutBounce);
                 break;

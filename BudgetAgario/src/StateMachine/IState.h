@@ -39,6 +39,7 @@ public:
         return m_ptrOwner;
     }
 
+
 private:
     StateManager* m_ptrOwner;
 

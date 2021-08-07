@@ -40,6 +40,18 @@ iostream
 
 /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/Spike.cpp
 
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/Checkpositionstate.cpp
+Checkpositionstate.h
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/Checkpositionstate.h
+
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/Checkpositionstate.h
+IState.h
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/IState.h
+EState.h
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/EState.h
+StateManager.h
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/StateManager.h
+
 /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/EState.h
 
 /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/GameMenuState.cpp
@@ -65,6 +77,8 @@ SDL2/SDL_image.h
 /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/MovingDownState.cpp
 MovingDownState.h
 /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/MovingDownState.h
+StateManager.h
+/home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/StateManager.h
 
 /home/default/Desktop/Workspace/exercises/CPP_Exercises/BudgetAgario/src/StateMachine/MovingDownState.h
 IState.h

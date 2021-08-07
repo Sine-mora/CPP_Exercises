@@ -6,6 +6,12 @@ void SharedData::SetOnTick(const std::function<void(double ElapsedTime)>& OnTick
     std::cout << "Set ontick !\n";
 }
 
+void SharedData::SetMoveDirection(const std::function<void (double)> &MoveDirection)
+{
+    m_MoveInDirection = MoveDirection;
+    std::cout <<"\nMove in direction";
+}
+
 void SharedData::TimerStart(double dPeriod)
 {
     m_dPeriod = dPeriod;
@@ -36,6 +42,12 @@ void SharedData::TimerUpdate(float deltaTime)
         }
     }
 }
+
+const std::function<void(float fDeltaTime)>& SharedData::GetMoveDirection()
+{
+    return m_MoveInDirection;
+}
+
 
 SDL_Rect& SharedData::GetRect()
 {

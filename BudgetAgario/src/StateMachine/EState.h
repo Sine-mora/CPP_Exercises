@@ -6,6 +6,7 @@ enum class EState
     eMovingDownState,
     eMovingUpState,
     eMovingRightState,
-    eMovingLeftState
+    eMovingLeftState,
+    eCheckPositionState
 
 };

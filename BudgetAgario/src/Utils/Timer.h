@@ -21,6 +21,8 @@ public:
 
     // Timer
     void SetOnTick(const std::function<void(double dElapsedTime)>& OnTick);
+    void SetMoveDirection(const std::function<void(float fDeltaTime)>& MoveDirection);
+    const std::function<void(float)>& GetMoveDirection();
     void TimerStart(double dPeriod);
     void TimerStop();
     void TimerUpdate(float fdeltaTime);
@@ -46,6 +48,7 @@ private:
     double m_dElapsedTime = 0;
     double m_dPeriod = 0;
     std::function<void(double dElapsedTime)> m_OnTick = {};
+    std::function<void(float fDeltaTime)> m_MoveInDirection = {};
 
     //Window's dimensions
     SDL_Point m_WindowDimensions = {600,800};

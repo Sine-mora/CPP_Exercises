@@ -7,6 +7,14 @@ CMakeFiles/CPP-Course-exe.dir/src/Player.cpp.o: ../src/Player.cpp
 
 CMakeFiles/CPP-Course-exe.dir/src/Spike.cpp.o: ../src/Spike.cpp
 
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o: ../src/IExercise.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o: ../src/Utils/Timer.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o: ../src/StateMachine/CheckPositionState.cpp
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o: ../src/StateMachine/CheckPositionState.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o: ../src/StateMachine/EState.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o: ../src/StateMachine/IState.h
+CMakeFiles/CPP-Course-exe.dir/src/StateMachine/CheckPositionState.cpp.o: ../src/StateMachine/StateManager.h
+
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: ../src/IExercise.h
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: ../src/Utils/Timer.h
 CMakeFiles/CPP-Course-exe.dir/src/StateMachine/GameMenuState.cpp.o: ../src/StateMachine/EState.h
@@ -69,6 +77,7 @@ CMakeFiles/CPP-Course-exe.dir/src/Utils/Timer.cpp.o: ../src/Utils/Timer.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/IExercise.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/Interpolator.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/Utils/Interpolator.hpp
+CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/CheckPositionState.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/EState.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/GameMenuState.h
 CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/StateMachine/IState.h
@@ -87,6 +96,7 @@ CMakeFiles/CPP-Course-exe.dir/src/main.cpp.o: ../src/mainLoop.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/IExercise.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/Interpolator.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/Utils/Interpolator.hpp
+CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/CheckPositionState.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/EState.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/GameMenuState.h
 CMakeFiles/CPP-Course-exe.dir/src/mainLoop.cpp.o: ../src/StateMachine/IState.h

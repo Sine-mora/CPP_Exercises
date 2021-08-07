@@ -1,24 +1,44 @@
 #include "MovingRightState.h"
 
-MovingRightState::MovingRightState(StateManager* ptrOwner): IState (ptrOwner)
+MovingRightState::MovingRightState(StateManager* ptrOwner) : IState(ptrOwner)
 {
-
 }
 
 void MovingRightState::Update(float fDeltaTime)
 {
-    GetTextureRect().x += static_cast<int>(GetVelocity().x * fDeltaTime);
-    std::cout<< "Vel.x " << GetVelocity().x<<"\n";
+    std::cout << "\nRight X: " << GetTextureRect().x << " Y: " << GetTextureRect().y
+              << "\n";
+
+    int nBorderX = (GetWindowDimensions().x - GetTextureRect().w);
+
+    GetTextureRect().x += static_cast<int>(static_cast<float>(GetVelocity().x) * fDeltaTime);
+
+    std::cout << "\nRight X: " << GetTextureRect().x << " Y: " << GetTextureRect().y
+              << "\n";
+
+    if (GetTextureRect().x <= 0 && (GetStateName()!=EState::eMovingLeftState) )
+//        GetPtrOwner()->ChangeState(EState::eMovingRightState);
+
+    if (GetTextureRect().x >= nBorderX )
+    {
+        std::cout << " in IF RS: " << GetTextureRect().x
+                  << "Point: " << nBorderX ;
+        GetPtrOwner()->ChangeState(EState::eMovingLeftState);
+    }
 }
 
 void MovingRightState::OnEnter()
 {
-    std::cout << "\n On Enter - Right State";
+    // TODO: Set Velocity here
+    std::cout << "\nRight State";
 }
 
 void MovingRightState::OnExit()
 {
-    std::cout<<"\nOn Exit - Right State";
+    std::cout << "\nExit Right";
 }
 
-EState MovingRightState::GetStateName() const { return EState::eMovingRightState; }
+EState MovingRightState::GetStateName() const
+{
+    return EState::eMovingRightState;
+}

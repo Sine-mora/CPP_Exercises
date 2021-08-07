@@ -7,8 +7,8 @@ MovingLeftState::MovingLeftState(StateManager* ptrOwner): IState (ptrOwner)
 
 void MovingLeftState::Update(float fDeltaTime)
 {
-    GetTextureRect().x -= static_cast<int>(GetVelocity().x * fDeltaTime);
-    std::cout<< "Vel.y " << GetVelocity().y<<"\n";
+    std::cout <<"\nLeft: "<< GetTextureRect().x << " x-y " << GetTextureRect().y << "\n";
+    GetTextureRect().x -= static_cast<int>(static_cast<float>(GetVelocity().x) * fDeltaTime);
 }
 
 void MovingLeftState::OnEnter()
